@@ -18,6 +18,8 @@
 # misc
 .DS_Store
 *.pem
+.idea/
+.vscode/
 
 # debug
 npm-debug.log*
@@ -26,6 +28,9 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env
+.env.development
+.env.production
 
 # vercel
 .vercel
@@ -33,6 +38,16 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-.env.local
-node_modules
+
+# package managers
 package-lock.json
+yarn.lock
+.pnpm-lock.yaml
+
+# PWA files
+**/public/sw.js
+**/public/workbox-*.js
+**/public/worker-*.js
+**/public/sw.js.map
+**/public/workbox-*.js.map
+**/public/worker-*.js.map

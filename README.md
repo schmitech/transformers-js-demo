@@ -61,38 +61,6 @@ npm run dev
 3. Click "Generate Text" to create AI-generated content
 4. View the generated text below
 
-## Project Structure
-
-```
-transformers-js-demo/
-├── app/
-│   ├── layout.tsx
-│   └── page.tsx
-├── components/
-│   ├── ui/
-│   │   ├── button.tsx
-│   │   ├── card.tsx
-│   │   ├── input.tsx
-│   │   └── textarea.tsx
-│   └── transformers/
-│       ├── image-classifier.tsx
-│       ├── text-classifier.tsx
-│       └── text-generator.tsx
-├── lib/
-│   └── transformers-service.ts
-├── public/
-│   └── assets/
-├── styles/
-│   └── globals.css
-├── .env.local.example
-├── .gitignore
-├── next.config.js
-├── package.json
-├── README.md
-├── tailwind.config.js
-└── tsconfig.json
-```
-
 ## Technical Stack
 
 - **Frontend Framework**: Next.js 14 (App Router)

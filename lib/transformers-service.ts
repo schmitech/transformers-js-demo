@@ -58,9 +58,11 @@ class TransformerService {
   async classifyImage(imageUrl: string) {
     try {
       this.checkApiToken();
+      const response = await fetch(imageUrl);
+      const arrayBuffer = await response.arrayBuffer();
       return await hf.imageClassification({
         model: 'google/vit-base-patch16-224',
-        data: imageUrl
+        data: arrayBuffer
       });
     } catch (error) {
       console.error('Image classification failed:', error);

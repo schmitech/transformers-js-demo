@@ -45,7 +45,7 @@ npm run dev
 
 ### Image Classification
 1. Navigate to the Image Classification section
-2. Enter a valid image URL (e.g., https://yourpetdentist.com/wp-content/uploads/2024/02/pexels-anna-shvets-4587970.jpg)
+2. Enter a valid image URL, for instance https://upload.wikimedia.org/wikipedia/commons/1/16/HDRI_Sample_Scene_Balls_%28JPEG-HDR%29.jpg
 3. Click "Classify" to analyze the image
 4. View the classification results below the image
 
